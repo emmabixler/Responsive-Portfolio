@@ -8,7 +8,7 @@ body {
 }
 .flex {
     display: flex;  
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
 }
 .banner {
@@ -23,6 +23,7 @@ h1 {
     font-family: "Georgia", "Times", "Times New Roman", serif;
     margin: 0px;
     padding: 20px;
+    font-size: 30px;
 
 
 }
@@ -33,7 +34,7 @@ h1 {
 }
 
 #aboutme{
-    font-size: 50px;
+    font-size: 60px;
 }
 nav {
     color: purple;
@@ -95,20 +96,22 @@ footer {
     transform: translate(-50%, -50%);
   }
 
- @media only screen and (min-width: 640px) {
-    #aboutme {
-    width: 100%;
-    }
-}
-
+ 
 @media screen and (max-width: 980px) {
     .part2 {
      font-size: 1.25rem; 
      background-color: beige;
     }
-    #aboutme{
-    font-size: 25px;
+
+    #aboutme {
+    font-size: px;
+    
 }
+    h1 {
+        font-size: 30px;
+        margin: 0px;
+        padding: 20px;
+    }
 
 }
 @media (max-width:768px) {
@@ -116,12 +119,30 @@ footer {
         font-size: 1.5rem;
         line-height: 1.5;
         background-color: blue;
-        
+        }
+
+    h1 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #aboutme {
+        font-size: 25px;
     }
 }
+
 @media (max-width: 640px) {
     .part2 {
      font-size: 1.25rem; 
      background-color: yellow;
+    }
+
+    #aboutme{
+    font-size: 20px;
+
+    }
+    h1 {
+        font-size: 20px;
+
     }
 }
