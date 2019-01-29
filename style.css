@@ -1,0 +1,127 @@
+body {
+    background-color:white;
+    color: #777777;
+    margin: 0 auto;
+    font-size: 15px;
+    background-image: url(../images/morocco.png);
+
+}
+.flex {
+    display: flex;  
+    width: 960px;
+    margin: 0 auto;
+}
+.banner {
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    margin: 0px;
+    padding: 20px;
+
+
+}
+.moveit{
+    background: white;
+    border-bottom: 4px solid pink;
+
+}
+
+#aboutme{
+    font-size: 50px;
+}
+nav {
+    color: purple;
+    margin: 50px;
+    font-size: 20px;
+
+}
+
+.fit-picture {
+    width: 24%;
+    padding: 20px;
+    float:left;
+}
+
+p {
+    color: #4aaaa5;
+    text-align: center;
+    line-height: 3.5; 
+    background-color: white;  
+}
+.part2 {
+    font-size: 20px;
+    text-align: left; 
+    line-height: 60px;
+    max-width: 960px;;
+    margin: 0 auto;
+}
+.pics {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.stock {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px 0px 20px;
+    background-color: #666666;
+    color: white;
+    border-top:4px solid pink;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container77 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+ @media only screen and (min-width: 640px) {
+    #aboutme {
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .part2 {
+     font-size: 1.25rem; 
+     background-color: beige;
+    }
+    #aboutme{
+    font-size: 25px;
+}
+
+}
+@media (max-width:768px) {
+    .part2 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        background-color: blue;
+        
+    }
+}
+@media (max-width: 640px) {
+    .part2 {
+     font-size: 1.25rem; 
+     background-color: yellow;
+    }
+}
