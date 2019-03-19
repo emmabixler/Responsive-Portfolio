@@ -1,5 +1,4 @@
 body {
-  background-color: white;
   color: black;
   margin: 0 auto;
   font-size: 15px;
@@ -8,6 +7,7 @@ body {
 
 .navbar {
   text-align: right;
+  font-size: 50%;
 }
 
 /* .flex {
@@ -21,13 +21,9 @@ body {
   background-color: white; */
 /* } */
 .parallax {
-  /* The image used */
   background-image: url("../Responsive-Portfolio/Port1.png");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
+  /* parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,8 +37,6 @@ h1 {
   padding: 50px;
   font-size: 40px;
   background-image: url("../Responsive-Portfolio/Port1.png");
-
-  /* Set a specific height */
   min-height: 150px;
 
   /* Create the parallax scrolling effect */
@@ -67,16 +61,19 @@ h1 {
 } */
 
 .profile-pic {
-  width: 24%;
-  padding: 20px;
-  float: left;
+  width: 25%;
+  padding: 93px;
+  float: right;
 }
 
 p {
   color: black;
   text-align: center;
-  line-height: 3.5;
-  background-color: white;
+  line-height: 1.5;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+
+  /* background-color: white; */
 }
 .part2 {
   font-size: 20px;
@@ -84,6 +81,13 @@ p {
   line-height: 60px;
   max-width: 960px;
   margin: 0 auto;
+  min-height: 150px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .pics {
   display: flex;
@@ -98,13 +102,12 @@ footer {
   text-align: center;
   padding: 30px 20px 0px 20px;
   background-color: #666666;
-  color: white;
-  border-top: 4px solid pink;
+  border-top: 4px solid black;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-
+/* end of index css */
 .container77 {
   position: relative;
   text-align: center;
