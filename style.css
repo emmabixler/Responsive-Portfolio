@@ -97,7 +97,16 @@ p {
 }
 #portfolio-section {
   text-align: center;
-  font-size: 200%;
+  font-size: 200%;  
+  background-image: url("../Responsive-Portfolio/Port1.png");
+  min-height: 150px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }
 
 /* .portfolio-work { */
@@ -280,4 +289,9 @@ input[type="submit"] {
     font-size: 1.25rem;
     margin: 10px;
   }
+}
+.social-media {
+  display: flex;
+  width: 200px;
+  height: 200px;
 }
