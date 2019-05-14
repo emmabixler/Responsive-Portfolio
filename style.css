@@ -57,7 +57,7 @@ h1 {
   /* white-space: nowrap; Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 2.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 @keyframes typing {
   from {
@@ -118,22 +118,35 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* contact form */
+.contact-form {
+  font-size: small;
+  background-image: url("/unsplash\ background\ .jpg");
+  color: #000;
+  padding: 10%;
+  width: 40%;
+  margin: 0 auto;
+  width: 450px;
+  float: none;
+  display: block;
+}
 .stock {
   width: 150px;
   height: auto;
 }
 
-footer {
+.footer {
   text-align: center;
   padding: 30px 20px 0px 20px;
-  background-color: #666666;
+  background-image: url("./images2/background-code\ .jpeg");
+  background-size: cover;
   border-top: 4px solid black;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-/* end of index css */
+
+/* flip cards of portfolio */
 .container77 {
   position: relative;
   text-align: center;

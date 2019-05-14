@@ -2,7 +2,7 @@
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Message: $message";
-$recipient = "emailaddress@here.com";
+$recipient = "leb5313@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
@@ -11,8 +11,7 @@ echo "Thank You!";
 
 
 
-
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -84,4 +83,4 @@ echo "Thank You!";
 
 </body>
 
-</html> --> 
+</html> 
