@@ -7,36 +7,42 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <form action="http://yourwebsite.com/yourform-processor.php">
+
+
     <!-- google fonts -->
     <title>Document</title>
   </head>
 
   <body>
+          
     <section class="moveit">
-       <div class="background">
-            <div class="typewriter"><h1>
-              <p>I'm Emma Bixler and I am a Full Stack Developer based in New York City!</p></h1>
-            </div>
-      <!-- <header class="banner flex"> -->
-      <!-- <h1>
-          <nav class= "navbar">
+        <nav class= "navbar">
             <a href="./index.html">About</a>
             <a href="#portfolio">Portfolio</a>
-            <a href="#section">Contact</a>
-          </nav></h1> -->
+            <a href="./contact.php">Contact</a>
+        </nav>
+    <div class="background">
+        <div class="typewriter"><h1>
+          <p>I'm Emma Bixler and I am a Full Stack Developer based in New York City!</p>
+            </h1>
+    </div>
+      </div>
+    
     </section>
     <div id="part2">
       <section class = "part2">
-        <h2 id="aboutme" class="part2">Emma Bixler</h2>
-        <!-- <p class="part2"> -->
+\          <h2 id="aboutme" class= "part2">
           <div class="parallax">
           <img
             class="profile-pic"
-            src="../Responsive-Portfolio/images /picture without budda .png"
+            src="../Responsive-Portfolio/heads-shot.png"
             alt="me in central park"
-          />Hi there and Welcome!
-          <br/>
-          <p>
+          />
+          <br>
+          </div>
+        
+        <p>
           My name is Emma Bixler and I am an Integration Specialist for a
           start-up tech company in New York. I am orginally from Philadelphia,
           Pa where I reside in the city that never sleeps. I attended  The
@@ -50,16 +56,27 @@
           or eating. <br />
           Hope you have fun exploring the site!!!!
         </p>
+        </h2>
+      </section>
+        <!-- <h2 id="aboutme" class= "part2"></h2>
+          <div class="parallax">
+          <img
+            class="profile-pic"
+            src="../Responsive-Portfolio/heads-shot.png"
+            alt="me in central park"
+          /> -->
+          <br/>
+
       </section>
     </div>
-    </div>
+    <!-- </div> -->
     <!-- Portfoilio -->
+    <div class="section-3">
     <h3 id ="portfolio-section">Portfolio</h3>
         <section id ="portfolio">
                 <div class="portfolio-work">
                     <div class="container77">
-
-            <div class="flip-card">
+                  <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="card-front">
                       <a href ="https://emmabixler.github.io/Word-Guess-Game-/"><img src="./images /crystal ball.png" alt="Avatar" style="width:200px;height:200px;">
@@ -74,13 +91,7 @@
                   </div>
                 </div>
               </div>
-              
-
-
-            <!-- <div class="container77">
-                <a href ="https://emmabixler.github.io/unit-4-game/"><img src="../Responsive-Portfolio/ring.png" alt="" class="stock">
-                <div class="centered"></div>
-            </div> -->
+          
 
             <div class="flip-card">
                 <div class="flip-card-inner">
@@ -151,6 +162,7 @@
         </div>
                 </div>
               </div>
+            </div>
     </section>
 
   <!-- Contact Page  -->
@@ -196,6 +208,11 @@
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script><div class="LI-profile-badge"  data-version="v1" data-size="small" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="emma-bixler-73a91b92"><a class="LI-simple-link" href='https://www.linkedin.com/in/emma-bixler-73a91b92?trk=profile-badge'>Emma Bixler</a></div>
   <a href ="https://github.com/emmabixler"> <img src="./images /Github .png" alt="github"/>
   </div>
+
+  <form method="post" action="contact.php">
+      <textarea name="message"></textarea>
+      <input type="submit">
+  </form>
     <!-- Bootstrap -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

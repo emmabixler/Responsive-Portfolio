@@ -1,8 +1,7 @@
 body {
   color: black;
-  /* margin: 0 auto; */
-  font-size: 15px;
-  /* background-image: url("../Responsive-Portfolio/unsplash\ background\ .jpg"); */
+  background-color: #000033;
+  font-size: 20px;
   min-height: 500px;
   /* parallax scrolling effect */
   background-attachment: fixed;
@@ -14,24 +13,22 @@ body {
 .navbar {
   text-align: right;
   font-size: 100%;
-
 }
 
-.parallax {
-  background-image: url( "../Responsive-Portfolio/images/Port1");
+/* .parallax { */
+/* background-image: url("../Responsive-Portfolio/images/Port1");
   min-height: 500px;
   /* parallax scrolling effect */
-  background-attachment: fixed;
+/* background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-; 
+  background-size: cover; */
+/* } */
 h1 {
-  color:purple;
+  color: purple;
   font-size: 100%;
-  font-family:'Playfair Display', serif;
- 
+  font-family: "Playfair Display", serif;
+
   /* font-family: "Georgia", "Times", "Times New Roman", serif; */
   margin: 0px;
   padding: 100px;
@@ -47,69 +44,71 @@ h1 {
 
 .moveit {
   background-image: url("./images2/background-code\ .jpeg");
-  background-size:cover; 
+  background-size: cover;
   border-bottom: 4px solid black;
-  padding: 10%; 
-  
+  color: white;
 }
 .background {
   font-size: 100%;
-
 }
 
 .typewriter h1 {
-  overflow: hidden; 
-  white-space: nowrap; /* Keeps the content on a single line */
+  overflow: hidden;
+  /* white-space: nowrap; Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
-
+/* picture */
 #aboutme {
-  font-size: 50px;
-  margin: 20px;
+  font-size: medium;
+  padding: 5%;
+  /* margin: 20px; */
 }
-
 
 .profile-pic {
   width: 20%;
-  padding: 93px;
-  float: right;
+  float: left;
 }
 
 p {
-  color: black;
-  text-align: center;
-  font-style: oblique;
-  line-height: 1.5;
-  border-top: 4px solid white;
-  border-bottom: 4px solid white;
+  color: white;
+  /* text-align: center; */
+  /* font-style: oblique; */
+  /* line-height: 1.5; */
+  /* border-top: 4px solid white;
+  border-bottom: 4px solid white; */
 }
 .part2 {
-  font-size: 20px;
-  text-align: left;
-  line-height: 60px;
-  max-width: 960px;
+  color: black;
+  /* background-color: #2980b9; */
+  text-align: center;
+  line-height: 40px;
   margin: 0 auto;
   min-height: 150px;
-  background-image: url("/unsplash\ background\ .jpg");
+  /* font-size: 50%; */
+  font-family: "Playfair Display", serif;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
+/* homepage-portfolio */
 #portfolio-section {
   text-align: center;
-  font-size: 200%;  
+  background: #2980b9;
+  font-size: 200%;
   background-image: url("../Responsive-Portfolio/images/Port1");
   min-height: 150px;
 
@@ -119,13 +118,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-}
 
-/* .portfolio-work { */
-/* display: flex; */
-/* flex-flow: column wrap; */
-/* text-align: center;
-} */
 .stock {
   width: 150px;
   height: auto;
